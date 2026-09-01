@@ -62,6 +62,15 @@
     messages: 52100 - 52499
     commands: 52100 - 52499
   -->
+  <!-- aurelia.xml range of IDs:
+    messages: 52201 - 52299
+    commands: 52201 - 52299
+  -->
+  <include>aurelia.xml</include>
+  <!--Next range to allocate range of IDs:
+    messages: 52300 - ? < 60000
+    commands: 52300 - ? < 60000
+  -->
   <!-- marsh.xml range of IDs:
     messages: 52500 - 52599
     commands: 52500 - 52599
