@@ -132,6 +132,10 @@
                 "required":             [ "name" ],
                 "additionalProperties": false
             }
+        },
+        "translation": {
+            "description": "Translation metadata for i18n of parameter fields.",
+            "type": "object"
         }
     },
     "required":             [ "version", "parameters" ],
